@@ -101,7 +101,7 @@
         android:columnCount="2">
 
         <EditText
-            android:id="@+id/key"
+            android:id="@+id/key_edit_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="5"
@@ -110,7 +110,7 @@
             android:layout_column="0"/>
 
         <EditText
-            android:id="@+id/value"
+            android:id="@+id/value_edit_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="5"
@@ -120,7 +120,7 @@
             android:layout_column="0"/>
 
         <Button
-            android:id="@+id/put"
+            android:id="@+id/put_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="100dp"
@@ -130,7 +130,7 @@
             android:layout_column="1"/>
 
         <Button
-            android:id="@+id/get"
+            android:id="@+id/get_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -141,5 +141,12 @@
             android:layout_column="1"/>
 
     </GridLayout>
+
+    <EditText
+        android:id="@+id/result_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:hint="@string/result"/>
 
 </LinearLayout>
